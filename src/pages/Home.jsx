@@ -1,7 +1,8 @@
 import React from "react";
-import { FaGithub, FaLinkedin, FaInstagram } from "react-icons/fa";
+import {FaLinkedin} from "react-icons/fa";
 import Contact from "./Contact";
 import About from "./About";
+import sam from '../assets/sam.jpeg'
 
 import Projects from "./Projects";
 
@@ -11,7 +12,7 @@ const Home = () => {
      <section className="min-h-[100vh] bg-[#0f172a] text-white flex flex-col-reverse md:flex-row items-center justify-center px-6 lg:px-20 gap-10 py-20 ">
       
       {/* Text Content */}
-      <div className="md:w-1/2 text-center md:text-left">
+      <div className="md:w-1/2 text-center md:text-left border-white-2">
         <h1 className="text-4xl md:text-5xl font-bold text-cyan-400">
           Hi, I'm Sam Jebaraj👋
         </h1>
@@ -42,8 +43,9 @@ const Home = () => {
 
       {/* Developer Image */}
       <div className="md:w-1/3 flex justify-center">
-        <img
-          src="https://i.pinimg.com/originals/e1/f3/41/e1f3413bf5036045713341394f617225.gif"
+        
+         <img
+          src={sam}
           alt="Developer Avatar"
           className="w-64 h-64 md:w-80 md:h-80 rounded-full object-cover shadow-lg"
         />
