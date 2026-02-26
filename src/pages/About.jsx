@@ -1,4 +1,5 @@
 import { FaGraduationCap, FaRoad, FaCode, FaCertificate } from "react-icons/fa";
+import dataanalyast from '../assets/dataanalyast.jpeg'
 
 export default function About() {
   const skills = [
@@ -40,7 +41,7 @@ export default function About() {
         {/* Left: Image */}
         <div className="flex justify-center">
           <img
-            src="https://camo.githubusercontent.com/66066b22abacaf358032bb15ab64fe18654e8d00e2ed4d07747d89eccb6596ae/68747470733a2f2f63646e622e61727473746174696f6e2e636f6d2f702f6173736574732f696d616765732f696d616765732f3032382f3939312f3939392f6f726967696e616c2f616e6e612d68617672796c79756b682d2e6769663f31353936313235313132"
+            src={dataanalyast}
             alt="Data Analyst Avatar"
             className="rounded-2xl w-72 sm:h-72 md:h-[400px] md:w-[400px] object-cover border-4 border-emerald-400 shadow-lg hover:scale-105 transition duration-300"
           />
